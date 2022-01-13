@@ -8,7 +8,7 @@ export default function Doctors() {
    
 
     useEffect(() => {
-        fetch('http://localhost:5000/doctors')
+        fetch('https://doctor-portal-server-withextra.herokuapp.com/doctors')
             .then(res => res.json())
             .then(data => setDoctors(data));
 
