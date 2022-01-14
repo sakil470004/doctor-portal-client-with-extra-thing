@@ -29,6 +29,7 @@ function App() {
               </PrivateRoute>}
             >
             </Route>
+            {/* router in the dashboard */}
             <Route path="/dashboard"
               element={
                 <PrivateRoute>  <Dashboard />   </PrivateRoute>

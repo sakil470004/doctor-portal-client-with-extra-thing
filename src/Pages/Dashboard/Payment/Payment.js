@@ -5,6 +5,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import CheckoutForm from './CheckoutForm';
 
+// for the payment method 
 const stripePromise = loadStripe('pk_test_51KGm2OGtRd0EwsQEjGaVGm2yF56TUqgHZt68LiOu55riIj0zouQw9xxfwJqRCfTuBfbnZxp1yHjrf4pleHIiu0kA00l9QS4YSP')
 
 export default function Payment() {
